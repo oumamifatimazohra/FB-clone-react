@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  .components__body{
+    display: flex;
+  }
+  button{
+    border: none;
+    display: flex;
+    background-color: transparent;
+    margin-top: 15px;
+  }
+  
+  button > .ic .MuiSvgIcon-root{
+    background-color: rgb(211, 211, 211) !important;
+    border-radius: 1999px !important;
+    height: 30px !important;
+    width: 30px !important;
+    margin: 0px 0px 0px 18px !important ;
+    padding: 0px 5px !important;
+  }
+  .text{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 7px;
+    position: relative !important;
+    top: 0px !important;
+  }
+  hr{
+    width: 19vw;
+    margin-top: 10px;
+    margin-left: 4px;
+   text-align: center;
+  }
+  
+  
+  .component__sidebar{
+    width:17% ;
+   
+  }
+  
+  .component__feed{
+  width: 63%;
+  }
+  .component__widget{
+  width: 20%;
+  }
+  
+  
+  .left_side:hover{
+    width: 20vw !important; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
+  }
+  
+  .left_side{
+    width: 20vw !important; 
+    background-color: #f0f2f5;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: sticky;
+    left: 0;
+    top: 0px;
+    bottom: 0px;
+  }
+  .left_side::-webkit-scrollbar {
+    width: 9px;
+    
+  }
+  
+  /* Track */
+  .left_side::-webkit-scrollbar-track {
+    
+    border-radius: 999px;
+  }
+   
+  /* Handle */
+  .left_side::-webkit-scrollbar-thumb {
+    background: rgb(190, 190, 190); 
+    border-radius: 999px;
+  }
+  
+  /* Handle on hover */
+  .left_side::-webkit-scrollbar-thumb:hover {
+    background: rgb(206, 206, 206); 
+  }
+  
+  .component__feed{
+    overflow: hidden;
+  }
+  body{
+    background-color: #f0f2f5;
+    height: 100vh;
+
+  }
