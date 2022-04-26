@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-.sidebar {
+@media only screen and (min-width: 768px) {
+
+  .sidebar {
     flex: 0.2;
 }
 
@@ -27,3 +29,4 @@
 .sidebar:hover {
     overflow-y: scroll;
   }
+}

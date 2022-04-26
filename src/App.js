@@ -16,6 +16,7 @@ function App() {
   const [{ user }, dispach] =useStateValue();
   const [isToggle, setIsToggle] = useState(false)
   return (
+  
     <div>
     {!user ? (
       <Login />
@@ -43,7 +44,11 @@ function App() {
                 <Feed />
               </div>
               <div className='component__widget'>
-                <SidebarR />
+               <SidebarR />
+
+            
+
+
               </div>
             </div>
           </div>
